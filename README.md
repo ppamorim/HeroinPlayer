@@ -1,6 +1,6 @@
 # HeroinPlayer
 
-[![CI Status](http://img.shields.io/travis/Pedro Paulo Amorim/HeroinPlayer.svg?style=flat)](https://travis-ci.org/pp.amorim/HeroinPlayer)
+[![CI Status](http://img.shields.io/travis/ppamorim/HeroinPlayer.svg?style=flat)](https://travis-ci.org/ppamorim/HeroinPlayer)
 [![Version](https://img.shields.io/cocoapods/v/HeroinPlayer.svg?style=flat)](http://cocoapods.org/pods/HeroinPlayer)
 [![License](https://img.shields.io/cocoapods/l/HeroinPlayer.svg?style=flat)](http://cocoapods.org/pods/HeroinPlayer)
 [![Platform](https://img.shields.io/cocoapods/p/HeroinPlayer.svg?style=flat)](http://cocoapods.org/pods/HeroinPlayer)

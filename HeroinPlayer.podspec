@@ -9,22 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = "HeroinPlayer"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HeroinPlayer."
+  s.summary          = "Wrapper around AVPlayer"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "A tiny wrapper around AVPlayer written in Swift"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HeroinPlayer"
+  s.homepage         = "https://github.com/ppamorim/HeroinPlayer"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Pedro Paulo Amorim" => "pepa.amorim@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HeroinPlayer.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/ppamorim/HeroinPlayer.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/ppamorim'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -35,6 +34,5 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.frameworks = 'UIKit'
 end
