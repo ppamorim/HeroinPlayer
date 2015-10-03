@@ -1,0 +1,6 @@
+framework module HeroinPlayer {
+  umbrella header "HeroinPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

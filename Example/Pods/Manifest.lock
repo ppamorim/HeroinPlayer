@@ -1,0 +1,14 @@
+PODS:
+  - HeroinPlayer (0.1.0)
+
+DEPENDENCIES:
+  - HeroinPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  HeroinPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HeroinPlayer: 4baec7505fd1091ad18c5c1f5baa00654660b38d
+
+COCOAPODS: 0.39.0.beta.5

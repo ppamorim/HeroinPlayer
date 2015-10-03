@@ -1,0 +1,25 @@
+{
+  "name": "HeroinPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of HeroinPlayer.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/HeroinPlayer",
+  "license": "MIT",
+  "authors": {
+    "Pedro Paulo Amorim": "pepa.amorim@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/HeroinPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "HeroinPlayer": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

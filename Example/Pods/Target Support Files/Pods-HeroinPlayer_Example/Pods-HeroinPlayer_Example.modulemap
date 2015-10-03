@@ -1,0 +1,6 @@
+framework module Pods_HeroinPlayer_Example {
+  umbrella header "Pods-HeroinPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

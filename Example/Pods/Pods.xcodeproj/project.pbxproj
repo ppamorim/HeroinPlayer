@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BD75351EB3CC85D48AF4DDC306E2B22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		29C59E3A8855D794DB9EB5547D0A3192 /* Pods-HeroinPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F36E6F2DA7204E1F5AC310383882ED /* Pods-HeroinPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3FEA33F6A466F66D5FF6A2F57274F6 /* HeroinPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E2F044DDD1E05AD11B7E65B9D065BA /* HeroinPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F065FE309A710AF0D843776964B7028 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1EDC2865CBDF559B2B73DE2ED4B67 /* ReplaceMe.swift */; };
+		7D6F3311C647EFEB747279D7E8B40969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		92E1EA16E6E20DC15C173A87E4FE875E /* Pods-HeroinPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110AA83E9904E0B3E660BD616AD7403 /* Pods-HeroinPlayer_Tests-dummy.m */; };
+		93AC0CF2A3E1B5B093A31B88F0BB8D79 /* Pods-HeroinPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D542CE45DA9FC6C564C3F828E88F3B /* Pods-HeroinPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943775A0C9A23C5C81B1D307DC8BD7B7 /* Pods-HeroinPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F8229092798EB7654BA56FA6D69AB7 /* Pods-HeroinPlayer_Example-dummy.m */; };
+		9E7D5425E2F7A82E8310CDC1CB729EE1 /* HeroinPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0CD961260B7614F42CF52F4D069C7 /* HeroinPlayer-dummy.m */; };
+		D49DEBC8F88FEBFCC536A7FD465A4251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D8290C8CD99EF7454EE65881053842E9 /* HeroinPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F47D9AA4C3BE8F1FB0C3342C9F5F63AC /* HeroinPlayer.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25EAD5EDF225F9066E4173A8D15DB637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C972B1FDEC159F49DDE1505196C598CB;
+			remoteInfo = HeroinPlayer;
+		};
+		364D7BA949801FC34070C453E2F174CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C972B1FDEC159F49DDE1505196C598CB;
+			remoteInfo = HeroinPlayer;
+		};
+		CD463B434CFF0BD41A671C2868EFF395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C4C4B4A706804963B49F5261D095E8;
+			remoteInfo = "HeroinPlayer-HeroinPlayer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F2C3D6012CBC92FC8DE04AEF2129B8 /* Pods-HeroinPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroinPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		03EC2A488764926C9B11B3C03D1E02A4 /* Pods_HeroinPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroinPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F8229092798EB7654BA56FA6D69AB7 /* Pods-HeroinPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeroinPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		1970D83B927E1C506FCAC8512A3F9571 /* Pods-HeroinPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeroinPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AC07181DAC9508A955BAFC542CE3EB8 /* Pods-HeroinPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroinPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E79EE2F44E59EC5507F74020A9CA839 /* Pods-HeroinPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroinPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BDDFB147549784233C4FB01B16C6C3B /* Pods-HeroinPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HeroinPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		2E4A686867125E74DAF02BE31F4BCD2C /* Pods-HeroinPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HeroinPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		30C26E5E1F2E3A7E4CBDE05F3228991E /* Pods-HeroinPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroinPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		36F36E6F2DA7204E1F5AC310383882ED /* Pods-HeroinPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeroinPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44228A710FC8B7EFFB4EC136B1F6E66B /* Pods-HeroinPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeroinPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		65E2F044DDD1E05AD11B7E65B9D065BA /* HeroinPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeroinPlayer-umbrella.h"; sourceTree = "<group>"; };
+		68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeroinPlayer.xcconfig; sourceTree = "<group>"; };
+		70D0CD961260B7614F42CF52F4D069C7 /* HeroinPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeroinPlayer-dummy.m"; sourceTree = "<group>"; };
+		7110AA83E9904E0B3E660BD616AD7403 /* Pods-HeroinPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeroinPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		92D542CE45DA9FC6C564C3F828E88F3B /* Pods-HeroinPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeroinPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		97A66A7D880C86244E313DD6D1A3F0D7 /* Pods-HeroinPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeroinPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9F46A88C170F28A00924831A313ED26E /* Pods-HeroinPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeroinPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A0096F437E3D4887641F225220FB63EF /* HeroinPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HeroinPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C55BB040826DA63D6B025D86B17247 /* HeroinPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeroinPlayer-prefix.pch"; sourceTree = "<group>"; };
+		B35D8591D66E8A357E468486FF7793DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD661603FD868378DB550B951F725731 /* Pods-HeroinPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeroinPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
+		C19403962CCE470ABFB0C4FD7F935BEB /* Pods-HeroinPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroinPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C46C5FE513EA4C0C1FB4DCCD70900DFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B70F1F6B10D46145BDDBB308A06AFF /* Pods-HeroinPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroinPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDBCF4F2B2B36FCF265987B506B4AE73 /* HeroinPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HeroinPlayer.modulemap; sourceTree = "<group>"; };
+		D0A55138C3A7BC2BAEC71F98227F070B /* Pods-HeroinPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeroinPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D32B03CFBECDF44A101C30262EE73A18 /* Pods_HeroinPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroinPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D1EDC2865CBDF559B2B73DE2ED4B67 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E97500D0E10A62EB2A0F10FBDB9D0905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47D9AA4C3BE8F1FB0C3342C9F5F63AC /* HeroinPlayer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroinPlayer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55186EC0B75C49E53386ABEE9C803DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6F3311C647EFEB747279D7E8B40969 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CACC5D6129A5FCBDEC5E06419FF03BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC8E536B86F43B7F8AD5990B8DF8B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49DEBC8F88FEBFCC536A7FD465A4251 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3EC11F61BA6BFD678984D25D0D01B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BD75351EB3CC85D48AF4DDC306E2B22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B30F3A81FBE2F6C03426B865FFDE465 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDBCF4F2B2B36FCF265987B506B4AE73 /* HeroinPlayer.modulemap */,
+				68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */,
+				70D0CD961260B7614F42CF52F4D069C7 /* HeroinPlayer-dummy.m */,
+				A6C55BB040826DA63D6B025D86B17247 /* HeroinPlayer-prefix.pch */,
+				65E2F044DDD1E05AD11B7E65B9D065BA /* HeroinPlayer-umbrella.h */,
+				C46C5FE513EA4C0C1FB4DCCD70900DFA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HeroinPlayer";
+			sourceTree = "<group>";
+		};
+		23546C99C2A8AD582C1C9D37115AEF4E /* Pods-HeroinPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B35D8591D66E8A357E468486FF7793DD /* Info.plist */,
+				2E4A686867125E74DAF02BE31F4BCD2C /* Pods-HeroinPlayer_Example.modulemap */,
+				1970D83B927E1C506FCAC8512A3F9571 /* Pods-HeroinPlayer_Example-acknowledgements.markdown */,
+				C5B70F1F6B10D46145BDDBB308A06AFF /* Pods-HeroinPlayer_Example-acknowledgements.plist */,
+				14F8229092798EB7654BA56FA6D69AB7 /* Pods-HeroinPlayer_Example-dummy.m */,
+				9F46A88C170F28A00924831A313ED26E /* Pods-HeroinPlayer_Example-frameworks.sh */,
+				44228A710FC8B7EFFB4EC136B1F6E66B /* Pods-HeroinPlayer_Example-resources.sh */,
+				92D542CE45DA9FC6C564C3F828E88F3B /* Pods-HeroinPlayer_Example-umbrella.h */,
+				1AC07181DAC9508A955BAFC542CE3EB8 /* Pods-HeroinPlayer_Example.debug.xcconfig */,
+				C19403962CCE470ABFB0C4FD7F935BEB /* Pods-HeroinPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-HeroinPlayer_Example";
+			path = "Target Support Files/Pods-HeroinPlayer_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				911F080747C8632404700D7597117024 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				90DF2D26D089B2004350F5BA79B0FAD1 /* Products */,
+				B97615D39C948D5A02650C0B35DB0007 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8BFFB3C7D1674CF3C9C89BAB14F776A5 /* Pods-HeroinPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E97500D0E10A62EB2A0F10FBDB9D0905 /* Info.plist */,
+				2BDDFB147549784233C4FB01B16C6C3B /* Pods-HeroinPlayer_Tests.modulemap */,
+				D0A55138C3A7BC2BAEC71F98227F070B /* Pods-HeroinPlayer_Tests-acknowledgements.markdown */,
+				01F2C3D6012CBC92FC8DE04AEF2129B8 /* Pods-HeroinPlayer_Tests-acknowledgements.plist */,
+				7110AA83E9904E0B3E660BD616AD7403 /* Pods-HeroinPlayer_Tests-dummy.m */,
+				97A66A7D880C86244E313DD6D1A3F0D7 /* Pods-HeroinPlayer_Tests-frameworks.sh */,
+				BD661603FD868378DB550B951F725731 /* Pods-HeroinPlayer_Tests-resources.sh */,
+				36F36E6F2DA7204E1F5AC310383882ED /* Pods-HeroinPlayer_Tests-umbrella.h */,
+				1E79EE2F44E59EC5507F74020A9CA839 /* Pods-HeroinPlayer_Tests.debug.xcconfig */,
+				30C26E5E1F2E3A7E4CBDE05F3228991E /* Pods-HeroinPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-HeroinPlayer_Tests";
+			path = "Target Support Files/Pods-HeroinPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		90DF2D26D089B2004350F5BA79B0FAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47D9AA4C3BE8F1FB0C3342C9F5F63AC /* HeroinPlayer.bundle */,
+				A0096F437E3D4887641F225220FB63EF /* HeroinPlayer.framework */,
+				D32B03CFBECDF44A101C30262EE73A18 /* Pods_HeroinPlayer_Example.framework */,
+				03EC2A488764926C9B11B3C03D1E02A4 /* Pods_HeroinPlayer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		911F080747C8632404700D7597117024 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3BDF94EF32E197B75F724383ADA3AD7 /* HeroinPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B3BDF94EF32E197B75F724383ADA3AD7 /* HeroinPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B9B01DA04F1FC730E4B440A0597F2991 /* Pod */,
+				1B30F3A81FBE2F6C03426B865FFDE465 /* Support Files */,
+			);
+			name = HeroinPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B97615D39C948D5A02650C0B35DB0007 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23546C99C2A8AD582C1C9D37115AEF4E /* Pods-HeroinPlayer_Example */,
+				8BFFB3C7D1674CF3C9C89BAB14F776A5 /* Pods-HeroinPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9B01DA04F1FC730E4B440A0597F2991 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EB4B6122BA5B569D88513726CA2F5FDF /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB4B6122BA5B569D88513726CA2F5FDF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5D1EDC2865CBDF559B2B73DE2ED4B67 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		294CB9DD16E410C2532083876D45CB8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AC0CF2A3E1B5B093A31B88F0BB8D79 /* Pods-HeroinPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1B10D9EAAA448A3FF9D8B2E08BE07D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C59E3A8855D794DB9EB5547D0A3192 /* Pods-HeroinPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C88C59C935C6E9C7970BA9EFF4B2EA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3FEA33F6A466F66D5FF6A2F57274F6 /* HeroinPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32C4C4B4A706804963B49F5261D095E8 /* HeroinPlayer-HeroinPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83134D93BA274EB079C82400A6C9DF74 /* Build configuration list for PBXNativeTarget "HeroinPlayer-HeroinPlayer" */;
+			buildPhases = (
+				D30C3C360AC72DACAC117BAF7AC7EBFF /* Sources */,
+				CACC5D6129A5FCBDEC5E06419FF03BC7 /* Frameworks */,
+				626F0AB9992479310A3BE2046B463BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HeroinPlayer-HeroinPlayer";
+			productName = "HeroinPlayer-HeroinPlayer";
+			productReference = F47D9AA4C3BE8F1FB0C3342C9F5F63AC /* HeroinPlayer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9577A1AA65442390DF34A4FC914030B1 /* Pods-HeroinPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47C162CC8D56BCABEF21566F1523D999 /* Build configuration list for PBXNativeTarget "Pods-HeroinPlayer_Example" */;
+			buildPhases = (
+				1E087F6E81DEEF91CE5237FB1F23A5B9 /* Sources */,
+				B55186EC0B75C49E53386ABEE9C803DD /* Frameworks */,
+				294CB9DD16E410C2532083876D45CB8D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D7D58765FAA279ACE009FB412461516 /* PBXTargetDependency */,
+			);
+			name = "Pods-HeroinPlayer_Example";
+			productName = "Pods-HeroinPlayer_Example";
+			productReference = D32B03CFBECDF44A101C30262EE73A18 /* Pods_HeroinPlayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AECB7FADC4C82217FBD7815116617B47 /* Pods-HeroinPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DD4FA62492C30FF9704FF8FE5390DE /* Build configuration list for PBXNativeTarget "Pods-HeroinPlayer_Tests" */;
+			buildPhases = (
+				A26CCA2FD08D6599C18A20AE646EC48D /* Sources */,
+				CBC8E536B86F43B7F8AD5990B8DF8B53 /* Frameworks */,
+				8B1B10D9EAAA448A3FF9D8B2E08BE07D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B2A145CDD85623E247445C56D35E2D /* PBXTargetDependency */,
+			);
+			name = "Pods-HeroinPlayer_Tests";
+			productName = "Pods-HeroinPlayer_Tests";
+			productReference = 03EC2A488764926C9B11B3C03D1E02A4 /* Pods_HeroinPlayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C972B1FDEC159F49DDE1505196C598CB /* HeroinPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52D60E38BE7412A090FE5ABEFD62B711 /* Build configuration list for PBXNativeTarget "HeroinPlayer" */;
+			buildPhases = (
+				7C11A4545E9C8F371915D83053746EE0 /* Sources */,
+				E3EC11F61BA6BFD678984D25D0D01B3E /* Frameworks */,
+				393E6C3E260433469AE2D37C2663416A /* Resources */,
+				9C88C59C935C6E9C7970BA9EFF4B2EA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB21D09E9D8A6EE260DF4D4AE9AF2F38 /* PBXTargetDependency */,
+			);
+			name = HeroinPlayer;
+			productName = HeroinPlayer;
+			productReference = A0096F437E3D4887641F225220FB63EF /* HeroinPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 90DF2D26D089B2004350F5BA79B0FAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C972B1FDEC159F49DDE1505196C598CB /* HeroinPlayer */,
+				32C4C4B4A706804963B49F5261D095E8 /* HeroinPlayer-HeroinPlayer */,
+				9577A1AA65442390DF34A4FC914030B1 /* Pods-HeroinPlayer_Example */,
+				AECB7FADC4C82217FBD7815116617B47 /* Pods-HeroinPlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		393E6C3E260433469AE2D37C2663416A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8290C8CD99EF7454EE65881053842E9 /* HeroinPlayer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626F0AB9992479310A3BE2046B463BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E087F6E81DEEF91CE5237FB1F23A5B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943775A0C9A23C5C81B1D307DC8BD7B7 /* Pods-HeroinPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C11A4545E9C8F371915D83053746EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7D5425E2F7A82E8310CDC1CB729EE1 /* HeroinPlayer-dummy.m in Sources */,
+				6F065FE309A710AF0D843776964B7028 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26CCA2FD08D6599C18A20AE646EC48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E1EA16E6E20DC15C173A87E4FE875E /* Pods-HeroinPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30C3C360AC72DACAC117BAF7AC7EBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B2A145CDD85623E247445C56D35E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HeroinPlayer;
+			target = C972B1FDEC159F49DDE1505196C598CB /* HeroinPlayer */;
+			targetProxy = 364D7BA949801FC34070C453E2F174CC /* PBXContainerItemProxy */;
+		};
+		2D7D58765FAA279ACE009FB412461516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HeroinPlayer;
+			target = C972B1FDEC159F49DDE1505196C598CB /* HeroinPlayer */;
+			targetProxy = 25EAD5EDF225F9066E4173A8D15DB637 /* PBXContainerItemProxy */;
+		};
+		EB21D09E9D8A6EE260DF4D4AE9AF2F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HeroinPlayer-HeroinPlayer";
+			target = 32C4C4B4A706804963B49F5261D095E8 /* HeroinPlayer-HeroinPlayer */;
+			targetProxy = CD463B434CFF0BD41A671C2868EFF395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AD99FFE6FE0768BA6AE2C5F4D274C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HeroinPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0E2D74A4F0AB208AA6E44508FCA80F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E79EE2F44E59EC5507F74020A9CA839 /* Pods-HeroinPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroinPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroinPlayer_Tests/Pods-HeroinPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HeroinPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0EF3D1675478AE2603D3BAE973DB010B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HeroinPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE353F43BF8D53A355A26D8EB57187F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HeroinPlayer/HeroinPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeroinPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HeroinPlayer/HeroinPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HeroinPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C255FD682A21D258C8D620563037264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19403962CCE470ABFB0C4FD7F935BEB /* Pods-HeroinPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroinPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroinPlayer_Example/Pods-HeroinPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HeroinPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4EE1422F8930C281481A211525948CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C26E5E1F2E3A7E4CBDE05F3228991E /* Pods-HeroinPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroinPlayer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroinPlayer_Tests/Pods-HeroinPlayer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HeroinPlayer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A4A269B0138D13CF197F044480CF8344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HeroinPlayer/HeroinPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeroinPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HeroinPlayer/HeroinPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HeroinPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F011AA011653E3B025212955FA686517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC07181DAC9508A955BAFC542CE3EB8 /* Pods-HeroinPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroinPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroinPlayer_Example/Pods-HeroinPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HeroinPlayer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DD4FA62492C30FF9704FF8FE5390DE /* Build configuration list for PBXNativeTarget "Pods-HeroinPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2D74A4F0AB208AA6E44508FCA80F84 /* Debug */,
+				4EE1422F8930C281481A211525948CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47C162CC8D56BCABEF21566F1523D999 /* Build configuration list for PBXNativeTarget "Pods-HeroinPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011AA011653E3B025212955FA686517 /* Debug */,
+				4C255FD682A21D258C8D620563037264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52D60E38BE7412A090FE5ABEFD62B711 /* Build configuration list for PBXNativeTarget "HeroinPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE353F43BF8D53A355A26D8EB57187F /* Debug */,
+				A4A269B0138D13CF197F044480CF8344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83134D93BA274EB079C82400A6C9DF74 /* Build configuration list for PBXNativeTarget "HeroinPlayer-HeroinPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD99FFE6FE0768BA6AE2C5F4D274C77 /* Debug */,
+				0EF3D1675478AE2603D3BAE973DB010B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
