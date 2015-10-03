@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '372939257BD492F1AB158217'
+               BlueprintIdentifier = 'FC8BD5B4BC77C470D451BAA2'
                BlueprintName = 'HeroinPlayer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HeroinPlayer.framework'>

@@ -15,14 +15,28 @@
 
 import UIKit
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        return true
-    }
-
+class BottomControllerHeroin : UIViewController {
+  
+  var playButton : UIButton = {
+    let playButton = UIButton()
+    return playButton
+  }()
+  
+  var slider : UISlider = {
+    let slider = UISlider()
+    return slider
+  }()
+  
+  var fullScreenButton : UIButton = {
+    let playButton = UIButton()
+    return playButton
+  }()
+  
+  override func loadView() {
+    super.loadView()
+    self.view.addSubview(playButton)
+    self.view.addSubview(slider)
+    self.view.addSubview(fullScreenButton)
+  }
+  
 }
-

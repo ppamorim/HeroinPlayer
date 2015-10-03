@@ -7,65 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD75351EB3CC85D48AF4DDC306E2B22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		06EBB91A0A2791580C890C47F9CA488D /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */; };
+		0D46193F951EDB20EEE8052C4C67D394 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */; };
+		1AD182B1444E6D00EAE88E31D929C405 /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29C59E3A8855D794DB9EB5547D0A3192 /* Pods-HeroinPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F36E6F2DA7204E1F5AC310383882ED /* Pods-HeroinPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F3FEA33F6A466F66D5FF6A2F57274F6 /* HeroinPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E2F044DDD1E05AD11B7E65B9D065BA /* HeroinPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F065FE309A710AF0D843776964B7028 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1EDC2865CBDF559B2B73DE2ED4B67 /* ReplaceMe.swift */; };
-		7D6F3311C647EFEB747279D7E8B40969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		33ABA0F0CDCFA010765E8175DB38DFCA /* HeroinPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 724172A3451A969E4D15EAE87B6C750C /* HeroinPlayer.bundle */; };
+		60CB544CDC52B660E5828CDDB815098F /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */; };
+		62CD230433AE9578A5F8D8148C0C0CEE /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EB4840009D2D882082F9B9360DC2304 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A12AF6B48FD4D6BC6222087603E8E4C /* Pods-HeroinPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D542CE45DA9FC6C564C3F828E88F3B /* Pods-HeroinPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9071C3C970AF9E89A1B4E539E09A48C3 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92E1EA16E6E20DC15C173A87E4FE875E /* Pods-HeroinPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110AA83E9904E0B3E660BD616AD7403 /* Pods-HeroinPlayer_Tests-dummy.m */; };
-		93AC0CF2A3E1B5B093A31B88F0BB8D79 /* Pods-HeroinPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D542CE45DA9FC6C564C3F828E88F3B /* Pods-HeroinPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		943775A0C9A23C5C81B1D307DC8BD7B7 /* Pods-HeroinPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F8229092798EB7654BA56FA6D69AB7 /* Pods-HeroinPlayer_Example-dummy.m */; };
-		9E7D5425E2F7A82E8310CDC1CB729EE1 /* HeroinPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0CD961260B7614F42CF52F4D069C7 /* HeroinPlayer-dummy.m */; };
+		A5878E21B3E26F7DC3C4231A7571F3C4 /* BottomControllerHeroin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BCC4BEE981F0F45AEB49E520A08D79 /* BottomControllerHeroin.swift */; };
+		ACAC886A4E5D3C085520E940096F5613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AD0FA10F257FE34A59C3B2B42E8A4CAC /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */; };
+		B3F97A48A876478655E4AC55228252F7 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83B8B121400CD6F70EA180134141800 /* HeroinPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DF1F00EF3B21FEA92FFF6DED805719 /* HeroinPlayer.swift */; };
+		B8A88DE34CED435890D8241AA4E48B16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		D49DEBC8F88FEBFCC536A7FD465A4251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		D8290C8CD99EF7454EE65881053842E9 /* HeroinPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F47D9AA4C3BE8F1FB0C3342C9F5F63AC /* HeroinPlayer.bundle */; };
+		E2F2E788F4ADF7D7E9F59D1098324431 /* HeroinPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E2F044DDD1E05AD11B7E65B9D065BA /* HeroinPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E622FD4F06CBDA4E8E5DB9DBFB5A229F /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3705932C0E473842089C042C1BFC65E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F556D4E9E8FB59DDA98B196E760C33A3 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB1A214C76544D5925682B0ECB10199A /* Pods-HeroinPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F8229092798EB7654BA56FA6D69AB7 /* Pods-HeroinPlayer_Example-dummy.m */; };
+		FDFD19FF16B51E63A283D6CA6F95D5E6 /* HeroinPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D0CD961260B7614F42CF52F4D069C7 /* HeroinPlayer-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		25EAD5EDF225F9066E4173A8D15DB637 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C972B1FDEC159F49DDE1505196C598CB;
-			remoteInfo = HeroinPlayer;
-		};
 		364D7BA949801FC34070C453E2F174CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C972B1FDEC159F49DDE1505196C598CB;
+			remoteGlobalIDString = 683300395649769D65F0F0AC169A298F;
 			remoteInfo = HeroinPlayer;
 		};
-		CD463B434CFF0BD41A671C2868EFF395 /* PBXContainerItemProxy */ = {
+		86AB3E729B8BD105597CA576AD9BD16E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 32C4C4B4A706804963B49F5261D095E8;
+			remoteGlobalIDString = 5805BF47D58FF38CAF90F0F838AE7CF0;
+			remoteInfo = PureLayout;
+		};
+		AEEBBD3CE27ADDE7C4EE3B9DC3EC4CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 683300395649769D65F0F0AC169A298F;
+			remoteInfo = HeroinPlayer;
+		};
+		DC66548160B9C0BDF53667D9756A87AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230C02F3535027F53B90740E985C851C;
 			remoteInfo = "HeroinPlayer-HeroinPlayer";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
 		01F2C3D6012CBC92FC8DE04AEF2129B8 /* Pods-HeroinPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroinPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		03EC2A488764926C9B11B3C03D1E02A4 /* Pods_HeroinPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroinPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F8229092798EB7654BA56FA6D69AB7 /* Pods-HeroinPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeroinPlayer_Example-dummy.m"; sourceTree = "<group>"; };
 		1970D83B927E1C506FCAC8512A3F9571 /* Pods-HeroinPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeroinPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1AC07181DAC9508A955BAFC542CE3EB8 /* Pods-HeroinPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroinPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1E79EE2F44E59EC5507F74020A9CA839 /* Pods-HeroinPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroinPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		249938C44B3C707521E098F2C5086AD9 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
 		2BDDFB147549784233C4FB01B16C6C3B /* Pods-HeroinPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HeroinPlayer_Tests.modulemap"; sourceTree = "<group>"; };
 		2E4A686867125E74DAF02BE31F4BCD2C /* Pods-HeroinPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HeroinPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		30C26E5E1F2E3A7E4CBDE05F3228991E /* Pods-HeroinPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HeroinPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36F36E6F2DA7204E1F5AC310383882ED /* Pods-HeroinPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeroinPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
 		44228A710FC8B7EFFB4EC136B1F6E66B /* Pods-HeroinPlayer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeroinPlayer_Example-resources.sh"; sourceTree = "<group>"; };
+		51E1E2F63797B53AAAF40B259F7773E1 /* HeroinPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HeroinPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
 		65E2F044DDD1E05AD11B7E65B9D065BA /* HeroinPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeroinPlayer-umbrella.h"; sourceTree = "<group>"; };
 		68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeroinPlayer.xcconfig; sourceTree = "<group>"; };
+		6D986837FA46C6AB4A8D72FCAA1B4454 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		70D0CD961260B7614F42CF52F4D069C7 /* HeroinPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeroinPlayer-dummy.m"; sourceTree = "<group>"; };
 		7110AA83E9904E0B3E660BD616AD7403 /* Pods-HeroinPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HeroinPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		724172A3451A969E4D15EAE87B6C750C /* HeroinPlayer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroinPlayer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		87A4C3E89C60DFE034BCC053CB49C146 /* Pods_HeroinPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroinPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3C9FA51ECE9224A286F702E70225F2 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D542CE45DA9FC6C564C3F828E88F3B /* Pods-HeroinPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HeroinPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
 		97A66A7D880C86244E313DD6D1A3F0D7 /* Pods-HeroinPlayer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeroinPlayer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		99DF1F00EF3B21FEA92FFF6DED805719 /* HeroinPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeroinPlayer.swift; sourceTree = "<group>"; };
 		9F46A88C170F28A00924831A313ED26E /* Pods-HeroinPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeroinPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A0096F437E3D4887641F225220FB63EF /* HeroinPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HeroinPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C55BB040826DA63D6B025D86B17247 /* HeroinPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeroinPlayer-prefix.pch"; sourceTree = "<group>"; };
+		A9BCC4BEE981F0F45AEB49E520A08D79 /* BottomControllerHeroin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BottomControllerHeroin.swift; sourceTree = "<group>"; };
+		AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
 		B35D8591D66E8A357E468486FF7793DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD661603FD868378DB550B951F725731 /* Pods-HeroinPlayer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HeroinPlayer_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -74,22 +110,39 @@
 		C5B70F1F6B10D46145BDDBB308A06AFF /* Pods-HeroinPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HeroinPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDBCF4F2B2B36FCF265987B506B4AE73 /* HeroinPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HeroinPlayer.modulemap; sourceTree = "<group>"; };
 		D0A55138C3A7BC2BAEC71F98227F070B /* Pods-HeroinPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HeroinPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D32B03CFBECDF44A101C30262EE73A18 /* Pods_HeroinPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroinPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D1EDC2865CBDF559B2B73DE2ED4B67 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		DC48A19E2AA264922693A9C30BC30743 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AAC65DE3FD927289A245BFD7EC3961 /* Pods_HeroinPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroinPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97500D0E10A62EB2A0F10FBDB9D0905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F47D9AA4C3BE8F1FB0C3342C9F5F63AC /* HeroinPlayer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroinPlayer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B55186EC0B75C49E53386ABEE9C803DD /* Frameworks */ = {
+		16CD4B0A12BE2B61A95CABC08AA6991B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D6F3311C647EFEB747279D7E8B40969 /* Foundation.framework in Frameworks */,
+				B8A88DE34CED435890D8241AA4E48B16 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CACC5D6129A5FCBDEC5E06419FF03BC7 /* Frameworks */ = {
+		1C7BE5109C80B46583BF9EC8C6F61AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC886A4E5D3C085520E940096F5613 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4D56394EB202236F2F9E718A88DD7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3705932C0E473842089C042C1BFC65E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926B32F73B4C3368E2930E01A27EC855 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,14 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D49DEBC8F88FEBFCC536A7FD465A4251 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3EC11F61BA6BFD678984D25D0D01B3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BD75351EB3CC85D48AF4DDC306E2B22 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +174,15 @@
 			path = "Example/Pods/Target Support Files/HeroinPlayer";
 			sourceTree = "<group>";
 		};
+		1D55907BD158E6DC562D79EFFD90A68B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9BCC4BEE981F0F45AEB49E520A08D79 /* BottomControllerHeroin.swift */,
+				99DF1F00EF3B21FEA92FFF6DED805719 /* HeroinPlayer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		23546C99C2A8AD582C1C9D37115AEF4E /* Pods-HeroinPlayer_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,13 +201,28 @@
 			path = "Target Support Files/Pods-HeroinPlayer_Example";
 			sourceTree = "<group>";
 		};
+		2F7CB2F8AA04108B4168449AFCA94214 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC48A19E2AA264922693A9C30BC30743 /* Info.plist */,
+				249938C44B3C707521E098F2C5086AD9 /* PureLayout.modulemap */,
+				01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */,
+				808D9E17BE044F47037C6ABD6F65EE32 /* PureLayout-dummy.m */,
+				6D986837FA46C6AB4A8D72FCAA1B4454 /* PureLayout-prefix.pch */,
+				6EFEA95188E08BEB23065B2AB052E7BC /* PureLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				911F080747C8632404700D7597117024 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				90DF2D26D089B2004350F5BA79B0FAD1 /* Products */,
+				A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */,
+				C568E9F0BB7B7192B62EF94E1103B822 /* Products */,
 				B97615D39C948D5A02650C0B35DB0007 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -176,17 +245,6 @@
 			path = "Target Support Files/Pods-HeroinPlayer_Tests";
 			sourceTree = "<group>";
 		};
-		90DF2D26D089B2004350F5BA79B0FAD1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F47D9AA4C3BE8F1FB0C3342C9F5F63AC /* HeroinPlayer.bundle */,
-				A0096F437E3D4887641F225220FB63EF /* HeroinPlayer.framework */,
-				D32B03CFBECDF44A101C30262EE73A18 /* Pods_HeroinPlayer_Example.framework */,
-				03EC2A488764926C9B11B3C03D1E02A4 /* Pods_HeroinPlayer_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		911F080747C8632404700D7597117024 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,10 +253,35 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		9C6F93A5AE4A9293598494393460DF93 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3F05D324772E907DB1D4DA2C89AA2 /* ALView+PureLayout.h */,
+				3F6990C47F02B6691DD4DA9D4504A36B /* ALView+PureLayout.m */,
+				256CB866D56B919DA6C9ABF2C32B4D37 /* NSArray+PureLayout.h */,
+				D87500AA33CA4A933595B88AD6CA26C8 /* NSArray+PureLayout.m */,
+				2F7D472071E15F7DC98E66B5980E1549 /* NSLayoutConstraint+PureLayout.h */,
+				62FD488738DACC6BD28A4B8007AC9E22 /* NSLayoutConstraint+PureLayout.m */,
+				261FA9EFC65F5CA2F5CE7AF0D3ACE209 /* PureLayout.h */,
+				AA654F86E857710B01965E96AC15F25C /* PureLayout+Internal.h */,
+				5B859CA7D3A83073EE3A0EFE2138F31B /* PureLayoutDefines.h */,
+				2F7CB2F8AA04108B4168449AFCA94214 /* Support Files */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		A2FDD832DA64F35B104DD4C55A31BF8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C6F93A5AE4A9293598494393460DF93 /* PureLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B3BDF94EF32E197B75F724383ADA3AD7 /* HeroinPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				B9B01DA04F1FC730E4B440A0597F2991 /* Pod */,
+				CFAC30580117E8EF98BC7CF686C70638 /* Pod */,
 				1B30F3A81FBE2F6C03426B865FFDE465 /* Support Files */,
 			);
 			name = HeroinPlayer;
@@ -212,14 +295,6 @@
 				8BFFB3C7D1674CF3C9C89BAB14F776A5 /* Pods-HeroinPlayer_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B9B01DA04F1FC730E4B440A0597F2991 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EB4B6122BA5B569D88513726CA2F5FDF /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -238,22 +313,34 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EB4B6122BA5B569D88513726CA2F5FDF /* Classes */ = {
+		C568E9F0BB7B7192B62EF94E1103B822 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5D1EDC2865CBDF559B2B73DE2ED4B67 /* ReplaceMe.swift */,
+				724172A3451A969E4D15EAE87B6C750C /* HeroinPlayer.bundle */,
+				51E1E2F63797B53AAAF40B259F7773E1 /* HeroinPlayer.framework */,
+				E3AAC65DE3FD927289A245BFD7EC3961 /* Pods_HeroinPlayer_Example.framework */,
+				87A4C3E89C60DFE034BCC053CB49C146 /* Pods_HeroinPlayer_Tests.framework */,
+				8E3C9FA51ECE9224A286F702E70225F2 /* PureLayout.framework */,
 			);
-			path = Classes;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFAC30580117E8EF98BC7CF686C70638 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D55907BD158E6DC562D79EFFD90A68B /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		294CB9DD16E410C2532083876D45CB8D /* Headers */ = {
+		56CBBBC414ACA037C3F051E08DEB4F3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93AC0CF2A3E1B5B093A31B88F0BB8D79 /* Pods-HeroinPlayer_Example-umbrella.h in Headers */,
+				8A12AF6B48FD4D6BC6222087603E8E4C /* Pods-HeroinPlayer_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,24 +352,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C88C59C935C6E9C7970BA9EFF4B2EA8 /* Headers */ = {
+		BF8336DA0A3CB2E338F734A782936FA8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3FEA33F6A466F66D5FF6A2F57274F6 /* HeroinPlayer-umbrella.h in Headers */,
+				E2F2E788F4ADF7D7E9F59D1098324431 /* HeroinPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0649412E2717FDF7D3CF4E5602B1A48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD182B1444E6D00EAE88E31D929C405 /* ALView+PureLayout.h in Headers */,
+				7EB4840009D2D882082F9B9360DC2304 /* NSArray+PureLayout.h in Headers */,
+				E622FD4F06CBDA4E8E5DB9DBFB5A229F /* NSLayoutConstraint+PureLayout.h in Headers */,
+				62CD230433AE9578A5F8D8148C0C0CEE /* PureLayout+Internal.h in Headers */,
+				F556D4E9E8FB59DDA98B196E760C33A3 /* PureLayout-umbrella.h in Headers */,
+				9071C3C970AF9E89A1B4E539E09A48C3 /* PureLayout.h in Headers */,
+				B3F97A48A876478655E4AC55228252F7 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32C4C4B4A706804963B49F5261D095E8 /* HeroinPlayer-HeroinPlayer */ = {
+		230C02F3535027F53B90740E985C851C /* HeroinPlayer-HeroinPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83134D93BA274EB079C82400A6C9DF74 /* Build configuration list for PBXNativeTarget "HeroinPlayer-HeroinPlayer" */;
+			buildConfigurationList = 556FAC08AA089866A30001F6376EB912 /* Build configuration list for PBXNativeTarget "HeroinPlayer-HeroinPlayer" */;
 			buildPhases = (
-				D30C3C360AC72DACAC117BAF7AC7EBFF /* Sources */,
-				CACC5D6129A5FCBDEC5E06419FF03BC7 /* Frameworks */,
-				626F0AB9992479310A3BE2046B463BB4 /* Resources */,
+				694AA5A22B2845B6580D9983EF3D37CF /* Sources */,
+				926B32F73B4C3368E2930E01A27EC855 /* Frameworks */,
+				E004049885DAFA22BD4332A0062DE438 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -290,25 +391,62 @@
 			);
 			name = "HeroinPlayer-HeroinPlayer";
 			productName = "HeroinPlayer-HeroinPlayer";
-			productReference = F47D9AA4C3BE8F1FB0C3342C9F5F63AC /* HeroinPlayer.bundle */;
+			productReference = 724172A3451A969E4D15EAE87B6C750C /* HeroinPlayer.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		9577A1AA65442390DF34A4FC914030B1 /* Pods-HeroinPlayer_Example */ = {
+		5805BF47D58FF38CAF90F0F838AE7CF0 /* PureLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47C162CC8D56BCABEF21566F1523D999 /* Build configuration list for PBXNativeTarget "Pods-HeroinPlayer_Example" */;
+			buildConfigurationList = 0E8AB05709AEBEE13CA1737A2017C005 /* Build configuration list for PBXNativeTarget "PureLayout" */;
 			buildPhases = (
-				1E087F6E81DEEF91CE5237FB1F23A5B9 /* Sources */,
-				B55186EC0B75C49E53386ABEE9C803DD /* Frameworks */,
-				294CB9DD16E410C2532083876D45CB8D /* Headers */,
+				3C90138E47A559497A3118A3C8C40516 /* Sources */,
+				1C7BE5109C80B46583BF9EC8C6F61AE2 /* Frameworks */,
+				E0649412E2717FDF7D3CF4E5602B1A48 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D7D58765FAA279ACE009FB412461516 /* PBXTargetDependency */,
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = 8E3C9FA51ECE9224A286F702E70225F2 /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		683300395649769D65F0F0AC169A298F /* HeroinPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A137C77C4A8A1327CE17EE57C31D290 /* Build configuration list for PBXNativeTarget "HeroinPlayer" */;
+			buildPhases = (
+				52DF6F11A29CD2208715864797519375 /* Sources */,
+				6B4D56394EB202236F2F9E718A88DD7D /* Frameworks */,
+				1523F51B800FB91C50BC19FFFA548383 /* Resources */,
+				BF8336DA0A3CB2E338F734A782936FA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C132FCCBBBABBF4E1E560817CBB18499 /* PBXTargetDependency */,
+			);
+			name = HeroinPlayer;
+			productName = HeroinPlayer;
+			productReference = 51E1E2F63797B53AAAF40B259F7773E1 /* HeroinPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4C48FD715B06EE78FE122773AFB20C4 /* Pods-HeroinPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D725B2C7EF20156702E8602D6DC0FC50 /* Build configuration list for PBXNativeTarget "Pods-HeroinPlayer_Example" */;
+			buildPhases = (
+				AFD0D1BC954E7859459629E6077A5025 /* Sources */,
+				16CD4B0A12BE2B61A95CABC08AA6991B /* Frameworks */,
+				56CBBBC414ACA037C3F051E08DEB4F3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C466072264190BDFFC56DA83D44A723 /* PBXTargetDependency */,
+				E3A27B44E02AFAC3ACE8E563900D248E /* PBXTargetDependency */,
 			);
 			name = "Pods-HeroinPlayer_Example";
 			productName = "Pods-HeroinPlayer_Example";
-			productReference = D32B03CFBECDF44A101C30262EE73A18 /* Pods_HeroinPlayer_Example.framework */;
+			productReference = E3AAC65DE3FD927289A245BFD7EC3961 /* Pods_HeroinPlayer_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AECB7FADC4C82217FBD7815116617B47 /* Pods-HeroinPlayer_Tests */ = {
@@ -326,26 +464,7 @@
 			);
 			name = "Pods-HeroinPlayer_Tests";
 			productName = "Pods-HeroinPlayer_Tests";
-			productReference = 03EC2A488764926C9B11B3C03D1E02A4 /* Pods_HeroinPlayer_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C972B1FDEC159F49DDE1505196C598CB /* HeroinPlayer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52D60E38BE7412A090FE5ABEFD62B711 /* Build configuration list for PBXNativeTarget "HeroinPlayer" */;
-			buildPhases = (
-				7C11A4545E9C8F371915D83053746EE0 /* Sources */,
-				E3EC11F61BA6BFD678984D25D0D01B3E /* Frameworks */,
-				393E6C3E260433469AE2D37C2663416A /* Resources */,
-				9C88C59C935C6E9C7970BA9EFF4B2EA8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EB21D09E9D8A6EE260DF4D4AE9AF2F38 /* PBXTargetDependency */,
-			);
-			name = HeroinPlayer;
-			productName = HeroinPlayer;
-			productReference = A0096F437E3D4887641F225220FB63EF /* HeroinPlayer.framework */;
+			productReference = 87A4C3E89C60DFE034BCC053CB49C146 /* Pods_HeroinPlayer_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -365,28 +484,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 90DF2D26D089B2004350F5BA79B0FAD1 /* Products */;
+			productRefGroup = C568E9F0BB7B7192B62EF94E1103B822 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C972B1FDEC159F49DDE1505196C598CB /* HeroinPlayer */,
-				32C4C4B4A706804963B49F5261D095E8 /* HeroinPlayer-HeroinPlayer */,
-				9577A1AA65442390DF34A4FC914030B1 /* Pods-HeroinPlayer_Example */,
+				683300395649769D65F0F0AC169A298F /* HeroinPlayer */,
+				230C02F3535027F53B90740E985C851C /* HeroinPlayer-HeroinPlayer */,
+				A4C48FD715B06EE78FE122773AFB20C4 /* Pods-HeroinPlayer_Example */,
 				AECB7FADC4C82217FBD7815116617B47 /* Pods-HeroinPlayer_Tests */,
+				5805BF47D58FF38CAF90F0F838AE7CF0 /* PureLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		393E6C3E260433469AE2D37C2663416A /* Resources */ = {
+		1523F51B800FB91C50BC19FFFA548383 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8290C8CD99EF7454EE65881053842E9 /* HeroinPlayer.bundle in Resources */,
+				33ABA0F0CDCFA010765E8175DB38DFCA /* HeroinPlayer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		626F0AB9992479310A3BE2046B463BB4 /* Resources */ = {
+		E004049885DAFA22BD4332A0062DE438 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,20 +516,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E087F6E81DEEF91CE5237FB1F23A5B9 /* Sources */ = {
+		3C90138E47A559497A3118A3C8C40516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943775A0C9A23C5C81B1D307DC8BD7B7 /* Pods-HeroinPlayer_Example-dummy.m in Sources */,
+				60CB544CDC52B660E5828CDDB815098F /* ALView+PureLayout.m in Sources */,
+				0D46193F951EDB20EEE8052C4C67D394 /* NSArray+PureLayout.m in Sources */,
+				AD0FA10F257FE34A59C3B2B42E8A4CAC /* NSLayoutConstraint+PureLayout.m in Sources */,
+				06EBB91A0A2791580C890C47F9CA488D /* PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C11A4545E9C8F371915D83053746EE0 /* Sources */ = {
+		52DF6F11A29CD2208715864797519375 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E7D5425E2F7A82E8310CDC1CB729EE1 /* HeroinPlayer-dummy.m in Sources */,
-				6F065FE309A710AF0D843776964B7028 /* ReplaceMe.swift in Sources */,
+				A5878E21B3E26F7DC3C4231A7571F3C4 /* BottomControllerHeroin.swift in Sources */,
+				FDFD19FF16B51E63A283D6CA6F95D5E6 /* HeroinPlayer-dummy.m in Sources */,
+				B83B8B121400CD6F70EA180134141800 /* HeroinPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694AA5A22B2845B6580D9983EF3D37CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,10 +552,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D30C3C360AC72DACAC117BAF7AC7EBFF /* Sources */ = {
+		AFD0D1BC954E7859459629E6077A5025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1A214C76544D5925682B0ECB10199A /* Pods-HeroinPlayer_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,35 +566,58 @@
 		04B2A145CDD85623E247445C56D35E2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HeroinPlayer;
-			target = C972B1FDEC159F49DDE1505196C598CB /* HeroinPlayer */;
+			target = 683300395649769D65F0F0AC169A298F /* HeroinPlayer */;
 			targetProxy = 364D7BA949801FC34070C453E2F174CC /* PBXContainerItemProxy */;
 		};
-		2D7D58765FAA279ACE009FB412461516 /* PBXTargetDependency */ = {
+		9C466072264190BDFFC56DA83D44A723 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HeroinPlayer;
-			target = C972B1FDEC159F49DDE1505196C598CB /* HeroinPlayer */;
-			targetProxy = 25EAD5EDF225F9066E4173A8D15DB637 /* PBXContainerItemProxy */;
+			target = 683300395649769D65F0F0AC169A298F /* HeroinPlayer */;
+			targetProxy = AEEBBD3CE27ADDE7C4EE3B9DC3EC4CF9 /* PBXContainerItemProxy */;
 		};
-		EB21D09E9D8A6EE260DF4D4AE9AF2F38 /* PBXTargetDependency */ = {
+		C132FCCBBBABBF4E1E560817CBB18499 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "HeroinPlayer-HeroinPlayer";
-			target = 32C4C4B4A706804963B49F5261D095E8 /* HeroinPlayer-HeroinPlayer */;
-			targetProxy = CD463B434CFF0BD41A671C2868EFF395 /* PBXContainerItemProxy */;
+			target = 230C02F3535027F53B90740E985C851C /* HeroinPlayer-HeroinPlayer */;
+			targetProxy = DC66548160B9C0BDF53667D9756A87AF /* PBXContainerItemProxy */;
+		};
+		E3A27B44E02AFAC3ACE8E563900D248E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 5805BF47D58FF38CAF90F0F838AE7CF0 /* PureLayout */;
+			targetProxy = 86AB3E729B8BD105597CA576AD9BD16E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AD99FFE6FE0768BA6AE2C5F4D274C77 /* Debug */ = {
+		08CA88A58CB60E1FFCF4FA38D80DE5C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
+			baseConfigurationReference = C19403962CCE470ABFB0C4FD7F935BEB /* Pods-HeroinPlayer_Example.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HeroinPlayer;
+				INFOPLIST_FILE = "Target Support Files/Pods-HeroinPlayer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HeroinPlayer_Example/Pods-HeroinPlayer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HeroinPlayer_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		0E2D74A4F0AB208AA6E44508FCA80F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -493,18 +648,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		0EF3D1675478AE2603D3BAE973DB010B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HeroinPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -540,7 +683,7 @@
 			};
 			name = Release;
 		};
-		3FE353F43BF8D53A355A26D8EB57187F /* Debug */ = {
+		2A6C7D85B2D4982A4C8230E16269B3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
 			buildSettings = {
@@ -567,35 +710,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4C255FD682A21D258C8D620563037264 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C19403962CCE470ABFB0C4FD7F935BEB /* Pods-HeroinPlayer_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HeroinPlayer_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-HeroinPlayer_Example/Pods-HeroinPlayer_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_HeroinPlayer_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4EE1422F8930C281481A211525948CD3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -625,6 +739,18 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		531EB6728CE15661DA8D2D866494B9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HeroinPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -665,7 +791,34 @@
 			};
 			name = Debug;
 		};
-		A4A269B0138D13CF197F044480CF8344 /* Release */ = {
+		7CF9A013B2073F23B330C8A1A9C3C4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8161BB21450DB1EF6FA181EBE7059C11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
 			buildSettings = {
@@ -692,7 +845,19 @@
 			};
 			name = Release;
 		};
-		F011AA011653E3B025212955FA686517 /* Debug */ = {
+		9327F26F2D93E5C8C36D9BC7FDE27423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68942836161FFBB74A81B940C6B6169A /* HeroinPlayer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HeroinPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A45C8F31F3D849444A59024374EE9751 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AC07181DAC9508A955BAFC542CE3EB8 /* Pods-HeroinPlayer_Example.debug.xcconfig */;
 			buildSettings = {
@@ -722,9 +887,45 @@
 			};
 			name = Debug;
 		};
+		CC6CB251B420DED34E84198569A4043E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B056FE48A821CA3D3818E32A4CFEDF /* PureLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E8AB05709AEBEE13CA1737A2017C005 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF9A013B2073F23B330C8A1A9C3C4B0 /* Debug */,
+				CC6CB251B420DED34E84198569A4043E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -743,29 +944,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47C162CC8D56BCABEF21566F1523D999 /* Build configuration list for PBXNativeTarget "Pods-HeroinPlayer_Example" */ = {
+		556FAC08AA089866A30001F6376EB912 /* Build configuration list for PBXNativeTarget "HeroinPlayer-HeroinPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F011AA011653E3B025212955FA686517 /* Debug */,
-				4C255FD682A21D258C8D620563037264 /* Release */,
+				531EB6728CE15661DA8D2D866494B9BB /* Debug */,
+				9327F26F2D93E5C8C36D9BC7FDE27423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52D60E38BE7412A090FE5ABEFD62B711 /* Build configuration list for PBXNativeTarget "HeroinPlayer" */ = {
+		7A137C77C4A8A1327CE17EE57C31D290 /* Build configuration list for PBXNativeTarget "HeroinPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FE353F43BF8D53A355A26D8EB57187F /* Debug */,
-				A4A269B0138D13CF197F044480CF8344 /* Release */,
+				2A6C7D85B2D4982A4C8230E16269B3A0 /* Debug */,
+				8161BB21450DB1EF6FA181EBE7059C11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83134D93BA274EB079C82400A6C9DF74 /* Build configuration list for PBXNativeTarget "HeroinPlayer-HeroinPlayer" */ = {
+		D725B2C7EF20156702E8602D6DC0FC50 /* Build configuration list for PBXNativeTarget "Pods-HeroinPlayer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AD99FFE6FE0768BA6AE2C5F4D274C77 /* Debug */,
-				0EF3D1675478AE2603D3BAE973DB010B /* Release */,
+				A45C8F31F3D849444A59024374EE9751 /* Debug */,
+				08CA88A58CB60E1FFCF4FA38D80DE5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

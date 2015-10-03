@@ -1,8 +1,10 @@
 PODS:
   - HeroinPlayer (0.1.0)
+  - PureLayout (3.0.1)
 
 DEPENDENCIES:
   - HeroinPlayer (from `../`)
+  - PureLayout
 
 EXTERNAL SOURCES:
   HeroinPlayer:
@@ -10,5 +12,6 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   HeroinPlayer: 4baec7505fd1091ad18c5c1f5baa00654660b38d
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
 
 COCOAPODS: 0.39.0.beta.5
