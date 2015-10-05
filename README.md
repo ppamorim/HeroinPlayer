@@ -26,6 +26,12 @@ pod "HeroinPlayer"
 
 Pedro Paulo Amorim, pepa.amorim@gmail.com
 
+## Contributors
+
+Rafael Nobre, [nobre84(Github)][1]
+
 ## License
 
 HeroinPlayer is available under the MIT license. See the LICENSE file for more info.
+
+[1]: https://github.com/nobre84
