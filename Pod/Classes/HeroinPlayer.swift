@@ -16,44 +16,44 @@
 import AVKit
 import AVFoundation
 
-class HeroinPlayer : UIView {
+public class HeroinPlayer : UIView {
   
   var playerItem: AVPlayerItem? = nil
   var videoPlayer: AVPlayer? = nil
   
-  override class func layerClass() -> AnyClass {
+  override public class func layerClass() -> AnyClass {
     return AVPlayerLayer.self
   }
   
-  func build() -> HeroinPlayer {
+  public func build() -> HeroinPlayer {
     self.videoPlayer = AVPlayer(playerItem: self.playerItem!)
     setPlayer(self.videoPlayer!)
     setVideoFillMode(AVLayerVideoGravityResizeAspectFill)
     return self
   }
   
-  func start() -> Void {
+  public func start() -> Void {
     videoPlayer?.play()
   }
   
-  func pause() -> Void {
+  public func pause() -> Void {
     videoPlayer?.pause()
   }
   
-  func seekToDate(date: NSDate) {
+  public func seekToDate(date: NSDate) {
     videoPlayer?.seekToDate(date)
   }
   
-  func seekToTime(time: CMTime) -> Void {
+  public func seekToTime(time: CMTime) -> Void {
     videoPlayer?.seekToTime(time)
   }
   
-  func kill() -> Void {
+  public func kill() -> Void {
     playerItem?.finalize()
     videoPlayer?.finalize()
   }
   
-  func fastChange(videoURL: String) -> Void {
+  public func fastChange(videoURL: String) -> Void {
     if isPlaying() {
       pause()
     }
@@ -63,37 +63,37 @@ class HeroinPlayer : UIView {
     start()
   }
   
-  func isPlaying() -> Bool {
+  public func isPlaying() -> Bool {
     return videoPlayer?.status != AVPlayerStatus.Failed
   }
   
-  func getVolume() -> Float {
+  public func getVolume() -> Float {
     return (videoPlayer?.volume)!
   }
   
-  func setUrl(videoURL: String) -> HeroinPlayer {
+  public func setUrl(videoURL: String) -> HeroinPlayer {
     self.playerItem = AVPlayerItem(URL: NSURL(string: videoURL)!)
     return self
   }
   
-  func setPlayer(player: AVPlayer) -> HeroinPlayer {
+  public func setPlayer(player: AVPlayer) -> HeroinPlayer {
     let layer: AVPlayerLayer = self.layer as! AVPlayerLayer
     layer.player = player
     return self
   }
   
-  func player() -> AVPlayer {
+  public func player() -> AVPlayer {
     let layer: AVPlayerLayer = self.layer as! AVPlayerLayer
     return layer.player!
   }
   
-  func setVideoFillMode(fillMode: NSString) -> HeroinPlayer {
+  public func setVideoFillMode(fillMode: NSString) -> HeroinPlayer {
     let layer: AVPlayerLayer = self.layer as! AVPlayerLayer
     layer.videoGravity = fillMode as String
     return self
   }
   
-  func videoFillMode() -> NSString {
+  public func videoFillMode() -> NSString {
     let layer: AVPlayerLayer = self.layer as! AVPlayerLayer
     return layer.videoGravity
   }
